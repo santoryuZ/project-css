@@ -1,8 +1,6 @@
 
 body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0px;
-    border: 0px;
+    font-family: "Kanit", sans-serif;
 }
 /*header section starts*/
 .Header {
@@ -31,15 +29,14 @@ body{
 /* section one starts*/
 .one{
     background-color: #1F2937;
-    
-
+    padding: 60px;
+    margin-top: -20px;
 }
 .introduction {
     color: #f9faf8;
     text-align: left;
     width: 450px;
     background-color: #1F2937;
-    margin-left: 120px;
     font-size: 48px;
     font-weight: 900;
 }
@@ -49,7 +46,7 @@ body{
     font-weight: bolder;
     background-color: #1F2937;
     width: 450px;
-    margin-left: 120px;
+    margin-top: 10px;
 }
 .img {
     vertical-align: top;
@@ -63,6 +60,15 @@ body{
     height: 30px;
     width: 130px;
     border-radius: 8px; 
+    margin-top: 10px
+}
+.hero-para{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.intro-para{
+    margin-left: 120px;
 }
 /*section one ends*//*section two starts*/
 .two  {
@@ -99,11 +105,24 @@ body{
         width: 200px;
         vertical-align: top;
     }
+    .image-text{
+        font-size: 22px;
+        font-weight: 500;
+        font-family:"Kanit", sans-serif ;
+        margin-top: 10px;
+        color: #1F2937;
+    }
+    .image-text2 {
+        font-size: 16px;
+        font-family:"Kanit", sans-serif ;
+        margin-top: 10px;
+        color: #1F2937;
+    }
 /*section two ends*//*section three starts*/
 .three {
     background-color: #e5e7eb;
     color: #1F2937;
-    padding: 72px 250px;
+    padding: 72px 240px;
 }
 .quote {
     font-size: 36px;
@@ -121,9 +140,48 @@ body{
 .four {
     text-align: center;
     background-color: #3882f6;
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+    width: 900px;
+    height: 40px;
+    padding: 40px 35px;
+    margin: 50px 260px;
+}
+.nhcu{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    width: 400px;
+}
+.help{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+    width: 800px;
+    margin-top: -10px;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    gap: 400px; 
+}
+.next{
+    margin-left: 80px;
+    
 }
 .end {
     background-color: #3882f6;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #f9faf8;
+    height: 30px;
+    width: 150px;
+    border-radius: 8px; 
+    margin-top: 10px
 }
 .footer {
  text-align: center;  
